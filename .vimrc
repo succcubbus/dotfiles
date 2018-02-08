@@ -12,6 +12,10 @@ set smarttab
 
 set scrolloff=3
 
+" nerdtree
+map <C-n> :NERDTreeFind<CR>
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+
 call plug#begin('~/.vim/plugged')
 Plug 'udalov/kotlin-vim'
 Plug 'tpope/vim-surround'

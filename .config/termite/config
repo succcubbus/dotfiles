@@ -7,11 +7,11 @@ allow_bold = true
 dynamic_title = true
 urgent_on_bell = true
 clickable_url = true
-font = Hack 9
+font = Hack 11
 scrollback_lines = 10000
 search_wrap = true
 #icon_name = terminal
-geometry = 1024x600
+geometry = 1280x800
 
 # "system", "on" or "off"
 cursor_blink = system
@@ -31,6 +31,7 @@ filter_unmatched_urls = true
 # emit escape sequences for extra modified keys
 #modify_other_keys = false
 
+# solarized dark
 [colors]
 
 # special
@@ -71,37 +72,129 @@ color14 = #2aa198
 color7  = #93a1a1
 color15 = #fdf6e3
 
-# defualt colorscheme
+# google light
 # [colors]
-# cursor = #dcdccc
-# cursor_foreground = #dcdccc
-# foreground = #dcdccc
-# foreground_bold = #ffffff
-# background = #3f3f3f
 # 
-# 20% background transparency (requires a compositor)
-# background = rgba(63, 63, 63, 0.8)
+# # special
+# foreground      = #373b41
+# foreground_bold = #373b41
+# cursor          = #373b41
+# background      = #ffffff
 # 
-# if unset, will reverse foreground and background
-# highlight = #2f2f2f
+# # black
+# color0  = #1d1f21
+# color8  = #969896
 # 
-# colors from color0 to color254 can be set
-# color0 = #3f3f3f
-# color1 = #705050
-# color2 = #60b48a
-# color3 = #dfaf8f
-# color4 = #506070
-# color5 = #dc8cc3
-# color6 = #8cd0d3
-# color7 = #dcdccc
-# color8 = #709080
-# color9 = #dca3a3
-# color10 = #c3bf9f
-# color11 = #f0dfaf
-# color12 = #94bff3
-# color13 = #ec93d3
-# color14 = #93e0e3
+# # red
+# color1  = #cc342b
+# color9  = #cc342b
+# 
+# # green
+# color2  = #198844
+# color10 = #198844
+# 
+# # yellow
+# color3  = #fba922
+# color11 = #fba922
+# 
+# # blue
+# color4  = #3971ed
+# color12 = #3971ed
+# 
+# # magenta
+# color5  = #a36ac7
+# color13 = #a36ac7
+# 
+# # cyan
+# color6  = #3971ed
+# color14 = #3971ed
+# 
+# # white
+# color7  = #c5c8c6
 # color15 = #ffffff
+# 
+
+# solarized light
+#[colors]
+#
+## special
+#foreground      = #586e75
+#foreground_bold = #586e75
+#cursor          = #586e75
+#background      = #fdf6e3
+#
+## black
+#color0  = #002b36
+#color8  = #657b83
+#
+## red
+#color1  = #dc322f
+#color9  = #dc322f
+#
+## green
+#color2  = #859900
+#color10 = #859900
+#
+## yellow
+#color3  = #b58900
+#color11 = #b58900
+#
+## blue
+#color4  = #268bd2
+#color12 = #268bd2
+#
+## magenta
+#color5  = #6c71c4
+#color13 = #6c71c4
+#
+## cyan
+#color6  = #2aa198
+#color14 = #2aa198
+#
+## white
+#color7  = #93a1a1
+#color15 = #fdf6e3
+
+# hacking
+#[colors]
+#
+## special
+#foreground      = #42ddab
+#foreground_bold = #42ddab
+#cursor          = #42ddab
+#background      = #000000
+#
+## black
+#color0  = #11095d
+#color8  = #00432c
+#
+## red
+#color1  = #5ed737
+#color9  = #60cb35
+#
+## green
+#color2  = #60ac39
+#color10 = #60ac39
+#
+## yellow
+#color3  = #86cf17
+#color11 = #15a961
+#
+## blue
+#color4  = #6d8e4b
+#color12 = #1caf16
+#
+## magenta
+#color5  = #23880e
+#color13 = #87ec06
+#
+## cyan
+#color6  = #47a78b
+#color14 = #1fad83
+#
+## white
+#color7  = #88bb0e
+#color15 = #1dd45b
 
 [hints]
 #font = Monospace 12

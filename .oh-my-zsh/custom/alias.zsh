@@ -15,6 +15,8 @@ alias -g W='| wc'
 alias gw='gw --console=rich'
 alias gradle='gradle --console=rich'
 
+alias unp="unp -U"
+
 alias ffmpeg='ffmpeg -hide_banner'
 alias ffplay='ffplay -hide_banner'
 

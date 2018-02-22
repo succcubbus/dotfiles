@@ -17,6 +17,8 @@ alias gradle='gradle --console=rich'
 
 alias unp="unp -U"
 
+alias ipfs='nocorrect ipfs'
+
 alias ffmpeg='ffmpeg -hide_banner'
 alias ffplay='ffplay -hide_banner'
 

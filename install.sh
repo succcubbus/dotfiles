@@ -9,14 +9,14 @@ ln -sf "$DIR/.tmux.conf" "$HOME/.tmux.conf"
 
 if [[ -d "$HOME/.config/termite" ]]; then
     rm -rf "$HOME/.config/termite"
-	ln -sf "$DIR/.config/termite" "$HOME/.config/termite"
+    ln -sf "$DIR/.config/termite" "$HOME/.config/termite"
 fi
 
 if [[ -d "$HOME/.config/trizen" ]]; then
     rm -rf "$HOME/.config/trizen"
-	ln -sf "$DIR/.config/trizen" "$HOME/.config/trizen"
+    ln -sf "$DIR/.config/trizen" "$HOME/.config/trizen"
 fi
 
 if [[ -d "$HOME/.oh-my-zsh/custom" ]]; then
-	ln -sf "$DIR/.oh-my-zsh/custom/alias.zsh" "$HOME/.oh-my-zsh/custom/alias.zsh"
+    ln -sf "$DIR/.oh-my-zsh/custom/alias.zsh" "$HOME/.oh-my-zsh/custom/alias.zsh"
 fi

@@ -19,18 +19,14 @@ if has ("autocmd")
 endif
 
 " disable arrow keys
-nnoremap <left> <nop>
+noremap <left> <nop>
 inoremap <left> <nop>
-vnoremap <left> <nop>
-nnoremap <right> <nop>
+noremap <right> <nop>
 inoremap <right> <nop>
-vnoremap <right> <nop>
-nnoremap <up> <nop>
+noremap <up> <nop>
 inoremap <up> <nop>
-vnoremap <up> <nop>
-nnoremap <down> <nop>
+noremap <down> <nop>
 inoremap <down> <nop>
-vnoremap <down> <nop>
 
 " nerdtree
 " map <C-n> :NERDTreeToggle<CR>

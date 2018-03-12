@@ -6,6 +6,7 @@ ln -sf "$DIR/.vimrc" "$HOME/.vimrc"
 ln -sf "$DIR/.zshrc" "$HOME/.zshrc"
 ln -sf "$DIR/.Xmodmap" "$HOME/.Xmodmap"
 ln -sf "$DIR/.tmux.conf" "$HOME/.tmux.conf"
+ln -sf "$DIR/.gitconfig" "$HOME/.gitconfig"
 
 if [[ -d "$HOME/.config/termite" ]]; then
     rm -rf "$HOME/.config/termite"

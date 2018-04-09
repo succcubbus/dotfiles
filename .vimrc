@@ -14,6 +14,9 @@ set smartindent
 
 set scrolloff=3
 
+let mapleader=","
+nmap <leader>p :PrettierAsync<Enter>
+
 if has ("autocmd")
     filetype plugin indent on
 endif
@@ -28,6 +31,13 @@ inoremap <up> <nop>
 noremap <down> <nop>
 inoremap <down> <nop>
 
+" split navigation
+
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+
 " nerdtree
 " map <C-n> :NERDTreeToggle<CR>
 " autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
@@ -39,6 +49,7 @@ Plug 'elixir-lang/vim-elixir'
 Plug 'tpope/vim-surround'
 Plug 'scrooloose/nerdtree'
 Plug 'editorconfig/editorconfig-vim'
+Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 
 " if has('nvim')
 "     Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }

@@ -12,6 +12,8 @@ set smarttab
 set autoindent
 set smartindent
 
+set ignorecase
+set smartcase
 set scrolloff=3
 
 let mapleader=","

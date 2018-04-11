@@ -34,7 +34,6 @@ noremap <down> <nop>
 inoremap <down> <nop>
 
 " split navigation
-
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
@@ -44,6 +43,9 @@ nnoremap <C-H> <C-W><C-H>
 " map <C-n> :NERDTreeToggle<CR>
 " autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
+" reduce update time for gitgutter
+set updatetime=100
+
 call plug#begin('~/.vim/plugged')
 
 Plug 'udalov/kotlin-vim'
@@ -52,6 +54,7 @@ Plug 'tpope/vim-surround'
 Plug 'scrooloose/nerdtree'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
+Plug 'airblade/vim-gitgutter'
 
 call plug#end()
 

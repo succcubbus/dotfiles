@@ -17,7 +17,8 @@ set smartcase
 set scrolloff=3
 
 let mapleader=","
-nmap <leader>p :PrettierAsync<Enter>
+nmap <leader>p :PrettierAsync<CR>
+nmap <leader>n :noh<CR>
 
 if has ("autocmd")
     filetype plugin indent on
@@ -40,7 +41,7 @@ nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
 " nerdtree
-" map <C-n> :NERDTreeToggle<CR>
+map <leader>t :NERDTreeToggle<CR>
 " autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
 " reduce update time for gitgutter

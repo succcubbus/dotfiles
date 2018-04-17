@@ -48,26 +48,3 @@ td() {
 	mkdir -p $1
 	cd $1
 }
-
-web() {
-	url=$1
-
-	if [[ ! ( $url =~ '.*\.[a-z]{2,5}($|/)' ) ]]; then
-		if ping -c 1 -w 1 "$url.com" > /dev/null; then
-			url="$url.com";
-		elif ping -c 1 -w 1 "$url.de" > /dev/null; then
-			url="$url.de";	
-		elif ping -c 1 -w 1 "$url.org" > /dev/null; then
-			url="$url.org";	
-		elif ping -c 1 -w 1 "$url.net" > /dev/null; then
-			url="$url.net";	
-		fi
-	fi
-	
-	if [[ $url != http://* ]] && [[ $url != https://* ]]; then
-		url="https://$url";
-	fi
-
-	echo Opening $url
-	open_command $url
-}

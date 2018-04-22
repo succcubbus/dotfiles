@@ -59,6 +59,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'udalov/kotlin-vim'
 Plug 'elixir-lang/vim-elixir'
 Plug 'tpope/vim-surround'
+Plug 'tpope/vim-repeat'
 Plug 'scrooloose/nerdtree'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'prettier/vim-prettier', { 'do': 'yarn install' }

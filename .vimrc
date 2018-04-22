@@ -49,7 +49,11 @@ autocmd BufWinEnter,WinEnter term://* startinsert
 
 " nerdtree
 map <leader>t :NERDTreeToggle<CR>
-" autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+autocmd BufEnter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+autocmd VimEnter * NERDTree
+autocmd VimEnter * wincmd w
+autocmd BufWinEnter * NERDTreeMirror
+
 
 " reduce update time for gitgutter
 set updatetime=100

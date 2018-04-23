@@ -54,7 +54,6 @@ autocmd VimEnter * NERDTree
 autocmd VimEnter * wincmd w
 autocmd BufWinEnter * NERDTreeMirror
 
-
 " reduce update time for gitgutter
 set updatetime=100
 

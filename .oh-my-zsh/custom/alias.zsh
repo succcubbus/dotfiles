@@ -1,5 +1,4 @@
 alias more='less'
-
 export LESS='-RmNgiQ'
 
 alias md='mkdir -p'
@@ -16,6 +15,8 @@ alias gw='gw --console=rich'
 alias gradle='gradle --console=rich'
 
 alias unp="unp -U"
+
+alias open="xdg-open"
 
 alias ipfs='nocorrect ipfs'
 alias trizen='nocorrect trizen'

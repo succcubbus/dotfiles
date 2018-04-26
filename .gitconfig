@@ -17,3 +17,5 @@
 [url "git@bitbucket.org:"]
     insteadOf = "bb:"
 
+[include]
+    path = .local/.gitconfig

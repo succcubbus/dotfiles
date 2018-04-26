@@ -67,6 +67,7 @@ Plug 'scrooloose/nerdtree'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 Plug 'airblade/vim-gitgutter'
+Plug 'aklt/plantuml-syntax'
 
 call plug#end()
 

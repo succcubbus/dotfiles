@@ -59,15 +59,30 @@ set updatetime=100
 
 call plug#begin('~/.vim/plugged')
 
-Plug 'udalov/kotlin-vim'
-Plug 'elixir-lang/vim-elixir'
+" functionality
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-repeat'
-Plug 'scrooloose/nerdtree'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 Plug 'airblade/vim-gitgutter'
+
+" layout
+Plug 'scrooloose/nerdtree'
+
+" colors
+Plug 'iCyMind/NeoSolarized'
+Plug 'ayu-theme/ayu-vim'
+
+" languages
+Plug 'udalov/kotlin-vim'
+Plug 'elixir-lang/vim-elixir'
 Plug 'aklt/plantuml-syntax'
 
 call plug#end()
 
+" colors
+let g:gitgutter_override_sign_column_highlight = 0
+let ayucolor="dark"
+set termguicolors
+set background=dark
+colorscheme ayu

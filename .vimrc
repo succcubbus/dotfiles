@@ -48,11 +48,11 @@ tnoremap <C-l> <C-\><C-n><C-w>l
 autocmd BufWinEnter,WinEnter term://* startinsert
 
 " nerdtree
-map <leader>t :NERDTreeToggle<CR>
+map <leader>to :NERDTreeToggle<CR>
+map <leader>tf :NERDTreeFind<CR>
 autocmd BufEnter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 autocmd VimEnter * NERDTree
 autocmd VimEnter * wincmd w
-autocmd BufWinEnter * NERDTreeMirror
 
 " reduce update time for gitgutter
 set updatetime=100

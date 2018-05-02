@@ -48,7 +48,7 @@ tnoremap <C-l> <C-\><C-n><C-w>l
 autocmd BufWinEnter,WinEnter term://* startinsert
 
 " nerdtree
-map <leader>to :NERDTreeToggle<CR>
+map <leader>tt :NERDTreeToggle<CR>
 map <leader>tf :NERDTreeFind<CR>
 autocmd BufEnter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 autocmd VimEnter * NERDTree

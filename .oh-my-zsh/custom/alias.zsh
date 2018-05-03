@@ -14,9 +14,11 @@ alias -g W='| wc'
 alias gw='gw --console=rich'
 alias gradle='gradle --console=rich'
 
-alias unp="unp -U"
+alias v='nvim'
 
-alias open="xdg-open"
+alias unp='unp -U'
+
+alias open='xdg-open'
 
 alias ipfs='nocorrect ipfs'
 alias trizen='nocorrect trizen'
@@ -27,7 +29,7 @@ alias ffplay='ffplay -hide_banner'
 alias youtube-audio='youtube-dl -x -f bestaudio/best --audio-quality 0 --default-search "ytsearch:" --add-metadata --metadata-from-title "(?P<artist>.+?) - (?P<title>.+?)( \(.*\).*)?$" -o "%(title)s.%(ext)s"'
 
 # psutil python package is throwing errors that mess up the display
-alias glances="glances 2> /dev/null"
+alias glances='glances 2> /dev/null'
 
 play() {
 #	youtube-dl -f bestaudio/best --audio-quality 0 --default-search "ytsearch:" -o - $1 | ffplay -noborder -x 256 -y 144 -vn -volume 50 -autoexit - &

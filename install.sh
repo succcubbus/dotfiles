@@ -18,6 +18,9 @@ if [[ -d "$HOME/.config/trizen" ]]; then
     ln -sf "$DIR/.config/trizen" "$HOME/.config/trizen"
 fi
 
+ln -sf "$DIR/.config/oni/config.js" "$HOME/.config/oni/config.js"
+ln -sf "$DIR/.config/oni/config.tsx" "$HOME/.config/oni/config.tsx"
+
 if [[ -d "$HOME/.oh-my-zsh/custom" ]]; then
     ln -sf "$DIR/.oh-my-zsh/custom/alias.zsh" "$HOME/.oh-my-zsh/custom/alias.zsh"
     ln -sf "$DIR/.oh-my-zsh/custom/startx.zsh" "$HOME/.oh-my-zsh/custom/startx.zsh"

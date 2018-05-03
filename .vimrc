@@ -54,6 +54,7 @@ map <leader>tf :NERDTreeFind<CR>
 autocmd BufEnter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 autocmd VimEnter * NERDTree
 autocmd VimEnter * wincmd w
+let NERDTreeMinimalUI=1
 
 " reduce update time for gitgutter
 set updatetime=100

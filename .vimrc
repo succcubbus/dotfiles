@@ -1,7 +1,10 @@
 set nocompatible
 
 set number
-set relativenumber
+
+if has ("autocmd")
+    filetype plugin indent on
+endif
 
 " use 4 spaces for indent
 set tabstop=4
@@ -14,15 +17,10 @@ set smartindent
 
 set ignorecase
 set smartcase
+
+" layout
 set scrolloff=3
-
-let mapleader=","
-nmap <leader>p :PrettierAsync<CR>
-nmap <leader>n :noh<CR>
-
-if has ("autocmd")
-    filetype plugin indent on
-endif
+set colorcolumn=120
 
 " disable arrow keys
 noremap <left> <nop>
@@ -48,6 +46,11 @@ tnoremap <C-l> <C-\><C-n><C-w>l
 tnoremap <Esc> <C-\><C-n>
 autocmd BufWinEnter,WinEnter term://* startinsert
 
+" custom mappings
+let mapleader=","
+nmap <leader>p :PrettierAsync<CR>
+nmap <leader>n :noh<CR>
+
 " nerdtree
 map <leader>tt :NERDTreeToggle<CR>
 map <leader>tf :NERDTreeFind<CR>
@@ -57,7 +60,7 @@ autocmd VimEnter * wincmd w
 let NERDTreeMinimalUI=1
 
 " reduce update time for gitgutter
-set updatetime=100
+set updatetime=250
 
 call plug#begin('~/.vim/plugged')
 
@@ -82,7 +85,7 @@ Plug 'aklt/plantuml-syntax'
 
 call plug#end()
 
-" colors
+" colorscheme
 let g:gitgutter_override_sign_column_highlight = 0
 let ayucolor="dark"
 set termguicolors

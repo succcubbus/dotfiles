@@ -26,6 +26,7 @@ export const configuration = {
   "oni.useDefaultConfig": true,
   "oni.loadInitVim": true,
   "oni.hideMenu": true,
+  "tabs.mode": "native",
 
   "sidebar.enabled": false,
 

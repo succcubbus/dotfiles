@@ -20,6 +20,7 @@ exports.configuration = {
     "oni.useDefaultConfig": true,
     "oni.loadInitVim": true,
     "oni.hideMenu": true,
+    "tabs.mode": "native",
     "sidebar.enabled": false,
     "editor.fontSize": "14px",
     "editor.fontFamily": "Fira Code",

@@ -75,9 +75,9 @@ filter_unmatched_urls = true
 
 # ayu
 [colors]
-background = "#0f1419"
-cursor = "#f29718"
-foreground = "#e6e1cf"
+background = #212733
+cursor = #ffcc66
+foreground = #d9d7ce
 color0 = #000000
 color1 = #ff3333
 color2 = #b8cc52

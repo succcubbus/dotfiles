@@ -77,6 +77,7 @@ Plug 'scrooloose/nerdtree'
 " colors
 Plug 'iCyMind/NeoSolarized'
 Plug 'ayu-theme/ayu-vim'
+Plug 'sickill/vim-monokai'
 
 " languages
 Plug 'udalov/kotlin-vim'
@@ -87,7 +88,7 @@ call plug#end()
 
 " colorscheme
 let g:gitgutter_override_sign_column_highlight = 0
-let ayucolor="dark"
+let ayucolor="mirage"
 set termguicolors
 set background=dark
 colorscheme ayu

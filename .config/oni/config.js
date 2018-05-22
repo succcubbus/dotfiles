@@ -24,6 +24,5 @@ exports.configuration = {
     'sidebar.enabled': false,
     'experimental.mardownPreview.enabled': true,
     'editor.fontSize': '14px',
-    'editor.fontFamily': 'Fira Code',
-    'editor.renderer': 'webgl'
+    'editor.fontFamily': 'Fira Code'
 };

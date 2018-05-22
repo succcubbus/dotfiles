@@ -33,5 +33,5 @@ export const configuration = {
 
   'editor.fontSize': '14px',
   'editor.fontFamily': 'Fira Code',
-  'editor.renderer': 'webgl',
+  // 'editor.renderer': 'webgl',
 };

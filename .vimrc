@@ -96,7 +96,7 @@ call plug#end()
 
 " colorscheme
 let g:gitgutter_override_sign_column_highlight = 0
-let ayucolor="mirage"
+let ayucolor="dark"
 set termguicolors
 set background=dark
 colorscheme ayu

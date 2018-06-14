@@ -66,6 +66,12 @@ let NERDTreeMinimalUI=1
 let g:NERDTreeWinSize=40
 let g:nerdtree_plugin_open_cmd = 'xdg-open'
 
+" split resizing
+nnoremap <silent> ,sj :res -5<CR>
+nnoremap <silent> ,sk :res +5<CR>
+nnoremap <silent> ,sh :vert res -5<CR>
+nnoremap <silent> ,sl :vert res +5<CR>
+
 " reduce update time for gitgutter
 set updatetime=250
 

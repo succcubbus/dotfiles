@@ -21,8 +21,15 @@ exports.configuration = {
     'oni.loadInitVim': true,
     'oni.hideMenu': true,
     'tabs.mode': 'native',
-    'sidebar.enabled': false,
+    'sidebar.enabled': true,
+    'sidebar.default.open': false,
     'experimental.mardownPreview.enabled': true,
     'editor.fontSize': '14px',
-    'editor.fontFamily': 'Fira Code'
+    'editor.fontFamily': 'Fira Code',
+    // 'editor.renderer': 'webgl',
+    //
+    'language.elixir.languageServer.command': '/home/jannis/projects/elixir-ls/release/language_server.sh',
+    'language.rust.languageServer.command': 'rustup',
+    'language.rust.languageServer.arguments': ['run', 'nightly', 'rls'],
+    'language.rust.languageServer.rootFiles': ['Cargo.toml']
 };

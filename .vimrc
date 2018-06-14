@@ -19,6 +19,10 @@ set smartindent
 set ignorecase
 set smartcase
 
+" autosave
+autocmd FocusLost * silent! update
+set autowriteall
+
 " layout
 set scrolloff=3
 set colorcolumn=120

@@ -66,6 +66,18 @@ let NERDTreeMinimalUI=1
 let g:NERDTreeWinSize=40
 let g:nerdtree_plugin_open_cmd = 'xdg-open'
 
+" language client
+" set hidden
+" let g:LanguageClient_serverCommands = {
+"     \ 'rust': ['rustup', 'run', 'nightly', 'rls'],
+"     \ }
+" 
+" nnoremap <F5> :call LanguageClient_contextMenu()<CR>
+" nnoremap <silent> K :call LanguageClient#textDocument_hover()<CR>
+" nnoremap <silent> gd :call LanguageClient#textDocument_definition()<CR>
+" nnoremap <silent> <F2> :call LanguageClient#textDocument_rename()<CR>
+" nnoremap <silent> ,f :call LanguageClient#textDocument_formatting()<CR>
+
 " split resizing
 nnoremap <silent> ,sj :res -5<CR>
 nnoremap <silent> ,sk :res +5<CR>
@@ -83,6 +95,7 @@ Plug 'tpope/vim-repeat'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 Plug 'airblade/vim-gitgutter'
+Plug 'junegunn/fzf'
 
 " layout
 Plug 'scrooloose/nerdtree'
@@ -97,6 +110,11 @@ Plug 'sickill/vim-monokai'
 Plug 'udalov/kotlin-vim'
 Plug 'elixir-lang/vim-elixir'
 Plug 'aklt/plantuml-syntax'
+" Plug 'autozimu/LanguageClient-neovim', {
+"     \ 'branch': 'next',
+"     \ 'do': 'bash install.sh',
+"     \ }
+" Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 
 call plug#end()
 

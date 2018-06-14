@@ -1,6 +1,7 @@
 set nocompatible
 
 set number
+set relativenumber
 
 if has ("autocmd")
     filetype plugin indent on

@@ -19,3 +19,11 @@
 
 [include]
     path = .local/.gitconfig
+[http]
+	sslBackend = schannel
+[core]
+	excludesfile = ~/.gitignore
+[merge]
+	tool = vscode
+[mergetool "vscode"]
+	cmd = "code --wait $MERGED"

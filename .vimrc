@@ -104,6 +104,7 @@ Plug 'junegunn/fzf'
 " layout
 Plug 'scrooloose/nerdtree'
 Plug 'woelke/vim-nerdtree_plugin_open'
+Plug 'vim-airline/vim-airline'
 
 " colors
 Plug 'iCyMind/NeoSolarized'

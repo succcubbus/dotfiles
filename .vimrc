@@ -87,6 +87,10 @@ nnoremap <silent> ,sl :vert res +5<CR>
 " reduce update time for gitgutter
 set updatetime=250
 
+" autosave
+set autowrite
+autocmd FocusLost * silent! update
+
 call plug#begin('~/.vim/plugged')
 
 " functionality

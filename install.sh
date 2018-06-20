@@ -18,6 +18,11 @@ if [[ -d "$HOME/.config/trizen" ]]; then
     ln -sf "$DIR/.config/trizen" "$HOME/.config/trizen"
 fi
 
+if [[ -d "$HOME/.config/yay" ]]; then
+    rm -rf "$HOME/.config/yay"
+    ln -sf "$DIR/.config/yay" "$HOME/.config/yay"
+fi
+
 ln -sf "$DIR/.config/oni/config.js" "$HOME/.config/oni/config.js"
 ln -sf "$DIR/.config/oni/config.tsx" "$HOME/.config/oni/config.tsx"
 

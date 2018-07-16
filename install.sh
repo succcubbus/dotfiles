@@ -23,8 +23,10 @@ if [[ -d "$HOME/.config/yay" ]]; then
     ln -sf "$DIR/.config/yay" "$HOME/.config/yay"
 fi
 
-ln -sf "$DIR/.config/oni/config.js" "$HOME/.config/oni/config.js"
-ln -sf "$DIR/.config/oni/config.tsx" "$HOME/.config/oni/config.tsx"
+if [[ -d "$HOME/.config/oni" ]]; then
+    ln -sf "$DIR/.config/oni/config.js" "$HOME/.config/oni/config.js"
+    ln -sf "$DIR/.config/oni/config.tsx" "$HOME/.config/oni/config.tsx"
+fi
 
 if [[ -d "$HOME/.oh-my-zsh/custom" ]]; then
     ln -sf "$DIR/.oh-my-zsh/custom/alias.zsh" "$HOME/.oh-my-zsh/custom/alias.zsh"

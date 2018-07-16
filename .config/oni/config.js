@@ -7,6 +7,9 @@ exports.activate = function (oni) {
     // Add input bindings here:
     //
     oni.input.bind('<c-enter>', function () { return console.log('Control+Enter was pressed'); });
+    oni.input.bind('<f7>', function () {
+        return oni.commands.executeCommand('language.findAllReferences');
+    });
     //
     // Or remove the default bindings here by uncommenting the below line:
     //

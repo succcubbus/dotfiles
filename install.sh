@@ -1,6 +1,6 @@
 #!/bin/bash
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-echo $DIR
+echo "Installing config for existing software"
 
 ln -sf "$DIR/.vimrc" "$HOME/.vimrc"
 ln -sf "$DIR/.zshrc" "$HOME/.zshrc"

@@ -55,6 +55,7 @@ tnoremap <Esc> <C-\><C-n>
 let mapleader=","
 nmap <leader>p :PrettierAsync<CR>
 nmap <leader>n :noh<CR>
+nmap <leader>c :tabnew<CR>:terminal<CR>a
 
 " nerdtree
 map <leader>tt :NERDTreeToggle<CR>

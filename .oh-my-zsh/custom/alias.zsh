@@ -22,6 +22,7 @@ alias open='xdg-open'
 
 alias ipfs='nocorrect ipfs'
 alias trizen='nocorrect trizen'
+alias yay='nocorrect yay'
 
 alias ffmpeg='ffmpeg -hide_banner'
 alias ffplay='ffplay -hide_banner'

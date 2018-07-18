@@ -117,6 +117,7 @@ Plug 'udalov/kotlin-vim'
 Plug 'elixir-lang/vim-elixir'
 Plug 'aklt/plantuml-syntax'
 Plug 'w0rp/ale'
+Plug 'sheerun/vim-polyglot'
 " Plug 'autozimu/LanguageClient-neovim', {
 "     \ 'branch': 'next',
 "     \ 'do': 'bash install.sh',

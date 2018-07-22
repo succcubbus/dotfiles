@@ -32,3 +32,7 @@ if [[ -d "$HOME/.oh-my-zsh/custom" ]]; then
     ln -sf "$DIR/.oh-my-zsh/custom/alias.zsh" "$HOME/.oh-my-zsh/custom/alias.zsh"
     ln -sf "$DIR/.oh-my-zsh/custom/startx.zsh" "$HOME/.oh-my-zsh/custom/startx.zsh"
 fi
+
+if [[ -d "$HOME/.gnome2/accels" ]]; then
+    ln -sf "$DIR/.gnome2/accels/nemo" "$HOME/.gnome2/accels/nemo"
+fi

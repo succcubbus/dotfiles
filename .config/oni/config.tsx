@@ -41,7 +41,7 @@ export const configuration = {
   //
 
   'language.elixir.languageServer.command':
-    '/home/jannis/projects/elixir-ls/release/language_server.sh',
+    'elixirls',
   'language.elixir.languageServer.rootFiles': ['mix.exs'],
   'language.rust.languageServer.command': 'rustup',
   'language.rust.languageServer.arguments': ['run', 'nightly', 'rls'],

@@ -26,7 +26,7 @@ export const deactivate = (oni: Oni.Plugin.Api) => {
 export const configuration = {
   'ui.colorscheme': 'solarized8_dark',
 
-  'oni.useDefaultConfig': true,
+  'oni.useDefaultConfig': false,
   'oni.loadInitVim': true,
   'oni.hideMenu': true,
   'tabs.mode': 'native',
@@ -40,8 +40,7 @@ export const configuration = {
   // 'editor.renderer': 'webgl',
   //
 
-  'language.elixir.languageServer.command':
-    'elixirls',
+  'language.elixir.languageServer.command': 'elixirls',
   'language.elixir.languageServer.rootFiles': ['mix.exs'],
   'language.rust.languageServer.command': 'rustup',
   'language.rust.languageServer.arguments': ['run', 'nightly', 'rls'],

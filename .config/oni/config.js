@@ -20,7 +20,7 @@ exports.deactivate = function (oni) {
 };
 exports.configuration = {
     'ui.colorscheme': 'solarized8_dark',
-    'oni.useDefaultConfig': true,
+    'oni.useDefaultConfig': false,
     'oni.loadInitVim': true,
     'oni.hideMenu': true,
     'tabs.mode': 'native',

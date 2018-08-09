@@ -20,7 +20,7 @@ set ignorecase
 set smartcase
 
 " autosave
-autocmd FocusLost * silent! update
+autocmd FocusLost * silent! wa
 set autowriteall
 
 " layout

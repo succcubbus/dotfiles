@@ -103,6 +103,7 @@ Plug 'editorconfig/editorconfig-vim'
 Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 Plug 'airblade/vim-gitgutter'
 Plug 'junegunn/fzf'
+Plug 'bkad/CamelCaseMotion'
 
 " layout
 Plug 'scrooloose/nerdtree'
@@ -134,3 +135,5 @@ let ayucolor="dark"
 set termguicolors
 set background=dark
 colorscheme ayu
+
+call camelcasemotion#CreateMotionMappings('')

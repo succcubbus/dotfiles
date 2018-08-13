@@ -59,8 +59,8 @@ let mapleader=","
 nmap <leader>p :PrettierAsync<CR>
 nmap <leader>n :noh<CR>
 nmap <leader>c :tabnew<CR>:terminal<CR>a
-nmap <silent> <C-k> <Plug>(ale_previous_wrap)
-nmap <silent> <C-j> <Plug>(ale_next_wrap)
+nmap <silent> <leader>e <Plug>(ale_previous_wrap)
+nmap <silent> <leader>y <Plug>(ale_next_wrap)
  
 " nerdtree
 map <leader>tt :NERDTreeToggle<CR>

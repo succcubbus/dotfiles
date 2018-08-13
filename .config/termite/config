@@ -75,7 +75,8 @@ filter_unmatched_urls = true
 
 # ayu
 [colors]
-background = #212733
+#212733
+background = rgba(33, 39, 51, 0.8)
 cursor = #ffcc66
 foreground = #d9d7ce
 color0 = #000000

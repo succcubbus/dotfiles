@@ -19,6 +19,9 @@ set smartindent
 set ignorecase
 set smartcase
 
+" airline does that
+set noshowmode
+
 " autosave
 autocmd FocusLost * silent! wa
 set autowriteall

@@ -28,7 +28,7 @@ set autowriteall
 
 " layout
 set scrolloff=3
-set colorcolumn=120
+" set colorcolumn=120
 
 " disable arrow keys
 noremap <left> <nop>
@@ -134,9 +134,11 @@ call plug#end()
 
 " colorscheme
 let g:gitgutter_override_sign_column_highlight = 0
-let ayucolor="dark"
+let ayucolor="mirage"
 set termguicolors
 set background=dark
 colorscheme ayu
+" translucent background
+hi Normal guibg=NONE ctermbg=NONE
 
 call camelcasemotion#CreateMotionMappings('')

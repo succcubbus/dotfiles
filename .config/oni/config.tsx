@@ -42,7 +42,6 @@ export const configuration = {
 
   'language.elixir.languageServer.command': 'elixirls',
   'language.elixir.languageServer.rootFiles': ['mix.exs'],
-  'language.rust.languageServer.command': 'rustup',
-  'language.rust.languageServer.arguments': ['run', 'nightly', 'rls'],
+  'language.rust.languageServer.command': 'rls',
   'language.rust.languageServer.rootFiles': ['Cargo.toml'],
 };

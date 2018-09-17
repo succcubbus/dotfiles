@@ -8,20 +8,17 @@ ln -sf "$DIR/.Xmodmap" "$HOME/.Xmodmap"
 ln -sf "$DIR/.tmux.conf" "$HOME/.tmux.conf"
 ln -sf "$DIR/.gitconfig" "$HOME/.gitconfig"
 
-if [[ -d "$HOME/.config/termite" ]]; then
-    rm -rf "$HOME/.config/termite"
-    ln -sf "$DIR/.config/termite" "$HOME/.config/termite"
-fi
+installdir() {
+    if [[ -d "$HOME/$1" ]]; then
+        rm -rf "$HOME/$1"
+        ln -sf "$DIR/$1" "$HOME/$1"
+    fi
+}
 
-if [[ -d "$HOME/.config/trizen" ]]; then
-    rm -rf "$HOME/.config/trizen"
-    ln -sf "$DIR/.config/trizen" "$HOME/.config/trizen"
-fi
-
-if [[ -d "$HOME/.config/yay" ]]; then
-    rm -rf "$HOME/.config/yay"
-    ln -sf "$DIR/.config/yay" "$HOME/.config/yay"
-fi
+installdir ".config/termite"
+installdir ".config/trizen"
+installdir ".config/yay"
+installdir ".config/nvim"
 
 if [[ -d "$HOME/.config/oni" ]]; then
     ln -sf "$DIR/.config/oni/config.js" "$HOME/.config/oni/config.js"

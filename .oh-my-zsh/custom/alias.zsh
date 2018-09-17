@@ -14,7 +14,7 @@ alias -g W='| wc'
 alias gw='gw --console=rich'
 alias gradle='gradle --console=rich'
 
-alias v='nvim'
+alias vim='nvim'
 
 alias unp='unp -U'
 

@@ -23,5 +23,7 @@ Plug 'w0rp/ale'
 Plug 'udalov/kotlin-vim'
 Plug 'elixir-lang/vim-elixir'
 Plug 'aklt/plantuml-syntax'
+Plug 'leafgarland/typescript-vim'
+Plug 'mattn/emmet-vim'
 
 call plug#end()

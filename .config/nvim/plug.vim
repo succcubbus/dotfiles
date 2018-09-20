@@ -8,6 +8,10 @@ Plug 'tpope/vim-repeat'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 
+" files
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'junegunn/fzf.vim'
+
 " layout
 Plug 'scrooloose/nerdtree'
 Plug 'woelke/vim-nerdtree_plugin_open'

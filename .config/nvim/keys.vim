@@ -28,6 +28,7 @@ nmap <leader>n :noh<CR>
 nmap <leader>c :20sp +terminal<CR>a
 nmap <silent> <leader>k <Plug>(ale_previous_wrap)
 nmap <silent> <leader>j <Plug>(ale_next_wrap)
+nmap <C-p> :GFiles<CR>
 
 " nerdtree
 map <leader>tt :NERDTreeToggle<CR>

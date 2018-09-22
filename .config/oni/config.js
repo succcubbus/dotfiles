@@ -29,8 +29,7 @@ exports.configuration = {
     'experimental.mardownPreview.enabled': true,
     'editor.fontSize': '14px',
     'editor.fontFamily': 'Fira Code',
-    // 'editor.renderer': 'webgl',
-    //
+    'editor.renderer': 'webgl',
     'language.elixir.languageServer.command': 'elixirls',
     'language.elixir.languageServer.rootFiles': ['mix.exs'],
     'language.rust.languageServer.command': 'rls',

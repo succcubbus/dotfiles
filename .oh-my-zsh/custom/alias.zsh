@@ -34,7 +34,7 @@ alias glances='glances 2> /dev/null'
 
 play() {
 #	youtube-dl -f bestaudio/best --audio-quality 0 --default-search "ytsearch:" -o - $1 | ffplay -noborder -x 256 -y 144 -vn -volume 50 -autoexit - &
-	youtube-dl -f bestaudio/best --audio-quality 0 --default-search "ytsearch:" -o - "$*" | mplayer -volume 10 -softvol -novideo -
+	youtube-dl -f bestaudio/best --audio-quality 0 --default-search "ytsearch:" -o - "$*" | mplayer -volume 50 -softvol -novideo -
 
 #	local folder="/tmp/youtube-play"
 #	mkdir $folder

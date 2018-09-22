@@ -20,6 +20,8 @@ set scrolloff=3
 set splitbelow
 set splitright
 
+set hidden
+
 " autosave
 autocmd FocusLost * silent! wa
 set autowriteall

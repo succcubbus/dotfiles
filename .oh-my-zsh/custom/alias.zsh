@@ -33,19 +33,8 @@ alias youtube-audio='youtube-dl -x -f bestaudio/best --audio-quality 0 --default
 alias glances='glances 2> /dev/null'
 
 play() {
-#	youtube-dl -f bestaudio/best --audio-quality 0 --default-search "ytsearch:" -o - $1 | ffplay -noborder -x 256 -y 144 -vn -volume 50 -autoexit - &
-	youtube-dl -f bestaudio/best --audio-quality 0 --default-search "ytsearch:" -o - "$*" | mplayer -volume 50 -softvol -novideo -
-
-#	local folder="/tmp/youtube-play"
-#	mkdir $folder
-#	youtube-audio -o "$folder/%(title)s.%(ext)s" $1
-#	local file=$(find $folder -maxdepth 1 -type f)
-#	if [ -f $file ]; then
-#		ffplay -noborder -x 256 -y 144 -vn -volume 50 -autoexit $file
-#		# cvlc --play-and-exit -I ncurses $file
-#		rm -f $file
-#	fi
-#	rmdir $folder
+    mplayer -volume 50 -softvol -novideo \
+        <(youtube-dl -f bestaudio/best --audio-quality 0 --default-search "ytsearch:" -o - "$*")
 }
 
 td() {

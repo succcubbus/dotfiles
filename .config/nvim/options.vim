@@ -22,6 +22,8 @@ set splitright
 
 set hidden
 
+set undofile
+
 " autosave
 autocmd FocusLost * silent! wa
 set autowriteall

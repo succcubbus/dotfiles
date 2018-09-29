@@ -23,12 +23,13 @@ tnoremap <Esc> <C-\><C-n>
 
 " custom mappings
 let mapleader=","
-nmap <leader>p :PrettierAsync<CR>
-nmap <leader>n :noh<CR>
-nmap <leader>c :20sp +terminal<CR>a
-nmap <silent> <leader>k <Plug>(ale_previous_wrap)
-nmap <silent> <leader>j <Plug>(ale_next_wrap)
-nmap <C-p> :GFiles<CR>
+nnoremap <leader>p :PrettierAsync<CR>
+nnoremap <leader>n :noh<CR>
+nnoremap <leader>c :20sp +terminal<CR>aalias vim='echo no'<CR>clear<CR>
+nnoremap <silent> <leader>k <Plug>(ale_previous_wrap)
+nnoremap <silent> <leader>j <Plug>(ale_next_wrap)
+nnoremap <C-p> :GFiles<CR>
+nnoremap <C-6> <C-^>
 
 " nerdtree
 map <leader>tt :NERDTreeToggle<CR>

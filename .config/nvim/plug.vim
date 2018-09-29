@@ -31,4 +31,9 @@ Plug 'aklt/plantuml-syntax'
 Plug 'leafgarland/typescript-vim'
 Plug 'mattn/emmet-vim'
 
+" completion
+Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+let g:deoplete#enable_at_startup = 1
+Plug 'autozimu/LanguageClient-neovim', { 'branch': 'next', 'do': 'bash install.sh' }
+
 call plug#end()

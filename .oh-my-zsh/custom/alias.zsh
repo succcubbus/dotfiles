@@ -9,6 +9,7 @@ alias glog="git log --graph --abbrev-commit --decorate --format=format:'%C(bold 
 
 alias shred='shred -f -n3 -z -u'
 
+alias -g G='| grep'
 alias -g W='| wc'
 
 alias gw='gw --console=rich'

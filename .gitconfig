@@ -27,3 +27,10 @@
     tool = vscode
 [mergetool "vscode"]
     cmd = "code --wait $MERGED"
+[diff]
+    tool = kitty
+[difftool]
+    prompt = false
+    trustExitCode = true
+[difftool "kitty"]
+    cmd = kitty +kitten diff $LOCAL $REMOTE

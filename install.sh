@@ -16,6 +16,7 @@ installdir() {
 }
 
 installdir ".config/termite"
+installdir ".config/kitty"
 installdir ".config/trizen"
 installdir ".config/yay"
 installdir ".config/nvim"

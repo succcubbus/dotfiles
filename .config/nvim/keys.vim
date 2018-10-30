@@ -32,5 +32,4 @@ nnoremap <C-p> :GFiles<CR>
 nnoremap <C-6> <C-^>
 
 " nerdtree
-map <leader>tt :NERDTreeToggle<CR>
-map <leader>tf :NERDTreeFind<CR>
+map <leader>t :NERDTreeFind<CR>

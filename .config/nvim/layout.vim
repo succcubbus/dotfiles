@@ -5,5 +5,6 @@ autocmd BufEnter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 autocmd VimEnter * NERDTree
 autocmd VimEnter * wincmd w
 let NERDTreeMinimalUI=1
+let NERDTreeShowHidden=1
 let g:NERDTreeWinSize=40
 let g:nerdtree_plugin_open_cmd = 'xdg-open'

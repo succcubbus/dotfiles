@@ -30,6 +30,7 @@ Plug 'elixir-lang/vim-elixir'
 Plug 'aklt/plantuml-syntax'
 Plug 'leafgarland/typescript-vim'
 Plug 'mattn/emmet-vim'
+Plug 'posva/vim-vue'
 
 " completion
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }

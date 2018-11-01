@@ -19,7 +19,9 @@ alias vim='nvim'
 
 alias unp='unp -U'
 
-alias open='xdg-open'
+open() {
+    xdg-open "$@" &
+}
 
 alias ipfs='nocorrect ipfs'
 alias trizen='nocorrect trizen'

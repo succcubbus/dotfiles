@@ -31,6 +31,8 @@ Plug 'aklt/plantuml-syntax'
 Plug 'leafgarland/typescript-vim'
 Plug 'mattn/emmet-vim'
 Plug 'posva/vim-vue'
+Plug 'pangloss/vim-javascript'
+Plug 'mxw/vim-jsx'
 
 " completion
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }

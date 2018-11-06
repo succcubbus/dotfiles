@@ -35,6 +35,8 @@ alias youtube-audio='youtube-dl -x -f bestaudio/best --audio-quality 0 --default
 # psutil python package is throwing errors that mess up the display
 alias glances='glances 2> /dev/null'
 
+alias battery="upower -i $(upower -e | grep BAT) | grep percent | awk '{ print \$2 }'"
+
 play() {
     mplayer -volume 50 -softvol -novideo \
         <(youtube-dl -f bestaudio/best --audio-quality 0 --default-search "ytsearch:" -o - "$*")

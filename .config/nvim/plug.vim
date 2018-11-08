@@ -3,6 +3,7 @@ call plug#begin('~/.vim/plugged')
 " editing
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-repeat'
+Plug 'tomtom/tcomment_vim'
 
 " format
 Plug 'editorconfig/editorconfig-vim'

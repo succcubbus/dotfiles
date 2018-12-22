@@ -14,13 +14,13 @@
 
 [url "git@github.com:"]
     insteadOf = "gh:"
+[url "git@github.com:succcubbus/"]
+    insteadOf = "gh:/"
 [url "git@bitbucket.org:"]
     insteadOf = "bb:"
 
 [include]
     path = .local/.gitconfig
-[http]
-    sslBackend = schannel
 [core]
     excludesfile = ~/.gitignore
 [merge]

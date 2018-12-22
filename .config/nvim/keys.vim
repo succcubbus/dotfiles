@@ -22,7 +22,7 @@ tnoremap <C-l> <C-\><C-n><C-w><C-l>
 tnoremap <Esc> <C-\><C-n>
 
 " custom mappings
-let mapleader=","
+let mapleader=" "
 nnoremap <leader>p :PrettierAsync<CR>
 nnoremap <leader>n :noh<CR>
 nnoremap <leader>c :100vs +terminal<CR>aalias vim='echo no'<CR>clear<CR>

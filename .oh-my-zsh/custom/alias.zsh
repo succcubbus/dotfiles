@@ -1,6 +1,6 @@
 # sane defaults
 alias more='less'
-export LESS='-RmNgiQ'
+export LESS='-RmgiQ'
 
 alias shred='shred -f -n3 -z -u'
 
@@ -14,6 +14,7 @@ alias ffplay='ffplay -hide_banner'
 
 alias du='du -h'
 alias df='df -h'
+alias rm='rm -I'
 
 alias vim='nvim'
 
@@ -60,3 +61,5 @@ alias battery="upower -i $(upower -e | grep BAT) | grep percent | awk '{ print \
 open() {
     xdg-open "$@" &
 }
+
+alias irc='ssh -t ctdo tmux a'

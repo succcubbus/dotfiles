@@ -2,8 +2,8 @@
 autocmd BufEnter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
 " open nerdtree on start
-autocmd VimEnter * NERDTree
-autocmd VimEnter * wincmd w
+" autocmd VimEnter * NERDTree
+" autocmd VimEnter * wincmd w
 let NERDTreeMinimalUI=1
 let NERDTreeShowHidden=1
 let g:NERDTreeWinSize=40
